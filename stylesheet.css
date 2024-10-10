@@ -1,0 +1,46 @@
+/*---navigation---*/
+.navigationBar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+}
+
+.navigationBar a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 32px;
+    font-family:Urbanist;
+}
+
+.navigationBar a:hover {
+    text-decoration: underline;
+}
+
+/*---header---*/
+.header {
+    overflow: hidden;
+    font-family:Urbanist;
+    background-color: #ffffff;
+    color: rgb(112, 137, 158);
+    text-align: center;
+}
+
+/*---p , h1, body, ect..---*/
+p {
+    font-size: 100px;
+    font-family: Urbanist;
+}
+
+h1 {
+    font-size: 120px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
