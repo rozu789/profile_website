@@ -1,0 +1,11 @@
+#profilePersonalText {
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#profilePersonalText p {
+    font-size: 25px;
+    font-family: urbanist;
+    margin-left: 10px;
+}

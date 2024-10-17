@@ -1,0 +1,27 @@
+
+#indexTextFieldTopLeft {
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    height: auto;
+}
+
+#indexTextFieldTopLeft p {
+    font-size: 25px;
+    font-family: urbanist;
+    margin-left: 10px;
+}
+
+#indexPhotoFieldTopRight {
+    width: 20%;
+    background-color: rgb(255, 200, 127);
+    float: right;
+    height: auto;
+}
+
+#indexTextFieldBottom {
+    width: 100%;
+    background-color: rgb(1, 97, 65);
+    margin-top: 550px;
+    text-align: center;
+}

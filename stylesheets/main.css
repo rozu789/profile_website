@@ -1,0 +1,64 @@
+/*------standards------*/
+body {
+    margin: 0;
+    background-color: #ffffff;
+}
+
+h2 {
+    font-family: urbanist;
+    font-size: 40px;
+}
+
+h3 {
+    font-family: urbanist;
+    font-size: 35px;
+}
+
+p {
+    font-family: urbanist; 
+}
+
+
+/*------navigation------*/
+.roseLogo {
+    height: 30px;
+    
+}
+
+.navBar {
+    position: sticky;
+    top: 0; 
+    background-color: #ffffff; 
+    padding: 15px;  
+    margin-bottom: 2px;
+}
+
+.navBar a {
+    padding: 30px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: urbanist;
+    color: black;
+    
+}
+
+.navBar a:hover {
+    text-decoration: underline;
+}
+
+/*------header------*/
+.header h1 {
+    font-family: urbanist;
+    font-size: 160px;
+    color: black;
+    
+}
+
+.header {
+    padding: 1px;
+    height: 90vh;
+    text-align: center;
+    padding-top: 10vh;
+    background-color: #ffffff;
+
+}

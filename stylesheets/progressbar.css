@@ -1,0 +1,30 @@
+
+#progressBarText {
+    font-family: urbanist;
+    text-align: center; /* Center the Year Progress text */
+}
+
+#progressText {
+    font-family: urbanist;
+    text-align: center; /* Center the progress text */
+}
+
+#progressBar {
+    appearance: none; /* Remove default appearance */
+    width: 100%; /* Full width of the container */
+    height: 30px; /* Set height for the progress bar */
+    border-radius: 15px; /* Round corners */
+    border: 1px solid black; /* Add outline */
+    background-color: white; /* Background of the bar */
+}
+
+/* Style for WebKit browsers */
+#progressBar::-webkit-progress-bar {
+    background-color: white; /* Color of the bar background */
+    border-radius: 15px; /* Round corners */
+}
+
+#progressBar::-webkit-progress-value {
+    background-color: black; /* Color of the filled progress */
+    border-radius: 15px; /* Round corners for filled portion */
+}
