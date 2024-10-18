@@ -1,0 +1,63 @@
+#blogRow1 {
+    padding-bottom: 700px;
+    margin-bottom: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+#blogRow2 {
+    padding-bottom: 700px;
+    width: 100%;
+    text-align: center;
+}
+
+
+#blogFieldWork, #blogFirstFeedback, #blogProgramming, #blogStudyChoice, #blogSwot {
+    float: left;
+    margin-left: 2.5%;
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+h3 {
+    padding: 30px;
+    font-family: outfit;
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    font-size: 20px;
+    margin: 20px;
+    font-family: Gowun Dodum;
+}
+
+#blogRow1 img {
+    margin-top: 20px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    
+}
+
+#blogRow2 img {
+    margin-top: 20px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+hr {
+    margin-bottom: 35px;
+}
+
