@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="https://fonts.googleapis.com/css?family=Outfit:100,200,300,regular,500,600,700,800,900" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Gowun+Dodum:regular" rel="stylesheet" />
+
     <title>Dashboard</title>
 
     <link rel="stylesheet" href="stylesheets/main.css">
@@ -13,161 +17,29 @@
     <script src="scripts/main.js"></script>
     <script src="scripts/progressbar.js"></script>
 
-    <link href="https://fonts.googleapis.com/css?family=Mukta:200,300,regular,500,600,700,800" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Figtree:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Urbanist:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
 </head>
 
 <main>
     <body>
+
         <div class="navBar">
+            <p class="navLogo">ROOS.</p>
             <nav>
-                <img class="roseLogo" src="photos/roseLogo.png" alt="roseLogo">
-                <a href="index.html">home</a>
-                <a href="profile.html">profile</a>
-                <a href="dashboard.html">dashboard</a>
-                <a href="faq.html">faq</a>
-                <a href="blog.html">blog</a>
+                <a href="blog.html">BLOG</a>
+                <a href="faq.html">FAQ</a>
+                <a style="color: #353535;" href="dashboard.html">DASHBOARD</a>
+                <a href="profile.html">PROFILE</a>
+                <a href="index.html">HOME</a>  
             </nav>
         </div>
 
         <div class="header">
-            <h1>DASHBOARD</h1>
+            <h1>Dashboard.</h1>
         </div>
 
-        <div style="text-align: center;">
-            <h2 id="progressBarText">Year Progress</h2> <!-- Changed label to h2 -->
-            <progress id="progressBar" value="0" max="60" style="width: 100%; height: 30px; background-color: black;"></progress>
-            <span id="progressText" style="display: block; margin-top: 5px;">0 / 60</span> <!-- Centered progress text -->
-        </div>
 
-        <h2>Quarter 1</h2>
-        <table id="dashboardTableQuarter1">
-            <tr class="dashboardTableTop">
-                <td>Class</td>
-                <td>Abbreviation</td>
-                <td>Test Type</td>
-                <td>Grade</td>
-                <td>Class Credits</td>
-            </tr>
-            <tr>
-                <td>Professional- & Career Orientation</td>
-                <td>PCO</td>
-                <td>Website assignment</td>
-                <td><input type="text" onblur="handleGradeInput(this)" placeholder="Enter grade"></td>
-                <td>2.5 EC</td>
-            </tr>
-            <tr>
-                <td>Computer Science Basics</td>
-                <td>CSB</td>
-                <td>Written knowledge test</td>
-                <td><input type="text" onblur="handleGradeInput(this)" placeholder="Enter grade"></td>
-                <td>5 EC</td>
-            </tr>
-            <tr>
-                <td>Programming Basics</td>
-                <td>PBA</td>
-                <td>Case study</td>
-                <td><input type="text" onblur="handleGradeInput(this)" placeholder="Enter grade"></td>
-                <td>5 EC</td>
-            </tr>
-        </table>
 
-        <h2>Quarter 2</h2>
-        <table id="dashboardTableQuarter2">
-            <tr class="dashboardTableTop">
-                <td>Class</td>
-                <td>Abbreviation</td>
-                <td>Test Type</td>
-                <td>Grade</td>
-                <td>Class Credits</td>
-            </tr>
-            <tr>
-                <td>Object-Oriented Programming</td>
-                <td>OOP</td>
-                <td>Presentation</td>
-                <td><input type="text" onblur="handleGradeInput(this)" placeholder="Enter grade"></td>
-                <td>5 EC</td>
-            </tr>
-            <tr>
-                <td>Object-Oriented Programming</td>
-                <td>OOP</td>
-                <td>Case Study Exam</td>
-                <td><input type="text" onblur="handleGradeInput(this)" placeholder="Enter grade"></td>
-                <td>5 EC</td>
-            </tr>
-        </table>
 
-        <h2>Quarter 3</h2>
-        <table id="dashboardTableQuarter3">
-            <tr class="dashboardTableTop">
-                <td>Class</td>
-                <td>Abbreviation</td>
-                <td>Test Type</td>
-                <td>Grade</td>
-                <td>Class Credits</td>
-            </tr>
-            <tr>
-                <td>Framework Project 1</td>
-                <td> -- </td>
-                <td>On-site Case Study Exam</td>
-                <td><input type="text" onblur="handleGradeInput(this)" placeholder="Enter grade"></td>
-                <td>5 EC</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td>Database Exam</td>
-                <td><input type="text" onblur="handleGradeInput(this)" placeholder="Enter grade"></td>
-                <td>1.25 EC</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td>Group Presentation on Project Result</td>
-                <td><input type="text" onblur="handleGradeInput(this)" placeholder="Enter grade"></td>
-                <td>2.5 EC</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td>Group Portfolio with Individual Elements on Requirements</td>
-                <td><input type="text" onblur="handleGradeInput(this)" placeholder="Enter grade"></td>
-                <td>1.25 EC</td>
-            </tr>
-        </table>
-
-        <h2>Quarter 4</h2>
-        <table id="dashboardTableQuarter4">
-            <tr class="dashboardTableTop">
-                <td>Class</td>
-                <td>Abbreviation</td>
-                <td>Test Type</td>
-                <td>Grade</td>
-                <td>Class Credits</td>
-            </tr>
-            <tr>
-                <td>Framework Project 2</td>
-                <td> -- </td>
-                <td>Final Delivery</td>
-                <td><input type="text" onblur="handleGradeInput(this)" placeholder="Enter grade"></td>
-                <td>2.5 EC</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td>Report of Acceptance Tests and Optional Assessments</td>
-                <td><input type="text" onblur="handleGradeInput(this)" placeholder="Enter grade"></td>
-                <td>2.5 EC</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td>IT Development Portfolio</td>
-                <td><input type="text" onblur="handleGradeInput(this)" placeholder="Enter grade"></td>
-                <td>5 EC</td>
-            </tr>
-        </table>
     </body>
 </main>
 

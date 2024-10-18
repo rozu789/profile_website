@@ -1,11 +1,86 @@
-#profilePersonalText {
-    text-align: center;
-    padding-left: 20%;
-    padding-right: 20%;
+p {
+    font-family: Gowun Dodum;
+    font-size: 20px;
+    color: #3a3a3a;
 }
 
-#profilePersonalText p {
-    font-size: 25px;
-    font-family: urbanist;
-    margin-left: 10px;
+h2 {
+    font-family: outfit;
+    font-size: 50px;
+    color: #3a3a3a;
+}
+
+li {
+    font-family: Gowun Dodum;
+    font-size: 20px;
+    color: #3a3a3a;
+    margin-bottom: 40px;
+}
+
+#profileWhoAmI {
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    margin-bottom: 200px; 
+}
+
+#profileWhoAmI  p{
+    width: 100%;
+    text-align: center;   
+}
+
+.vl {
+    border-left: 2px solid rgb(0, 0, 0);
+    height: 650px;
+    position: absolute;
+    left: 50%;
+
+  }
+
+  #profileSummary {
+    float: right;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center; 
+    margin-bottom: 200px;   
+}
+
+
+div.scroll-container {
+    background-color: #f5f5f5;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    margin-left: 5%;
+    margin-bottom: 300px;
+  }
+  
+  div.scroll-container img {
+    padding: 10px;
+  }
+
+
+
+
+h3 {
+
+    font-family: outfit;
+    font-size: 40px;
+    color: #3a3a3a;    
+    text-align: left;
+    padding: 0;
+    margin-left: 5%;
+}
+
+.emptyDiv {
+    color: #f5f5f5;
+    margin: 0;
+}
+
+.line {
+    width: 90%;
+
 }
