@@ -1,0 +1,30 @@
+.bakcToBlog a{
+    text-decoration: none;
+    font-family: Gowun Dodum;
+    font-size: 20px;
+    color: #3a3a3a;
+    padding: 20px;
+    position: absolute;
+}
+
+.blogTitle {
+    text-align: center;
+    font-size: 32px;
+    font-family: outfit;
+    margin-bottom: 60px;
+}
+
+h3 {
+    text-align: center;
+    font-family: outfit;
+    font-size: 28px;
+    color: #3a3a3a;    
+}
+
+.studyChoiceActivities, .studyChoiceMotivation, .studyChoiceAfter {
+    width: 30%;
+    float: left;
+    padding: 1%;
+    text-align: center;
+    font-family: Gowun Dodum;
+}
